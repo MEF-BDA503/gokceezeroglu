@@ -3,7 +3,7 @@ title: "Assignment1"
 output: html_document
 ---
 
-Gokce EZEROÐLU,sales analyst at Avon Cosmetics. I have been working at business analysis department since 2017. My motivation for learning data science is to have broader understanding on deep dive analyses. Currently, programs like python, R, sql, are already being used in my team. Hopefully,  I will also be contributing to scientific based analyses at the end of this program.
+Gokce EZEROGLU,sales analyst at Avon Cosmetics. I have been working at business analysis department since 2017. My motivation for learning data science is to have broader understanding on deep dive analyses. Currently, programs like python, R, sql, are already being used in my team. Hopefully,  I will also be contributing to scientific based analyses at the end of this program.
 
 
 
