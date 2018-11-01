@@ -5,7 +5,7 @@
 
 ##BDA 503 Assignment Week 3- Updated
 
-[link](https://mef-bda503.github.io/pj18-gokceezeroglu/week3_assign_update.html))
+([link](https://mef-bda503.github.io/pj18-gokceezeroglu/week3_assign_update.html))
 
 
 ##BDA 503 Assignment Week 5(ODD Retail Sales)
