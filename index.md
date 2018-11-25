@@ -12,3 +12,5 @@
 (Ömer Elmasri, Kadir Kemal, Gökçe Ezeroğlu)
 ([Link](https://mef-bda503.github.io/pj18-KadirKemal/EGM/Gokce_Omer_Kadir.html)) 
 
+##503 GGPLOT Group Assignment
+([Link](https://mef-bda503.github.io/pj18-gokceezeroglu/aggregate.html)) 
