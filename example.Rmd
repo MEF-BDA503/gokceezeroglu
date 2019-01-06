@@ -1,0 +1,46 @@
+---
+title: "trial"
+author: "Gokce EZEROGLU"
+date: "6 Ocak 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+
+
+ranking2017 <- readRDS("ranking2017.rds")
+glimpse(ranking2017)
+ranking2017$rank=as.numeric(ranking2017$rank)
+ranking2017$scores_international_outlook=as.numeric(ranking2017$scores_international_outlook)
+ranking2017$scores_citations=as.numeric(ranking2017$scores_citations)
+ranking2017$scores_overall=as.numeric(ranking2017$scores_overall)
+ranking2017$scores_overall_rank=as.numeric(ranking2017$scores_overall_rank)
+ranking2017$scores_industry_income=as.numeric(ranking2017$scores_industry_income)
+ranking2017$scores_research=as.numeric(ranking2017$scores_research)
+ranking2017$scores_teaching=as.numeric(ranking2017$scores_teaching)
+ranking2017$stats_student_staff_ratio=as.numeric(ranking2017$stats_student_staff_ratio)
+ranking2017$rank_order=as.numeric(ranking2017$rank_order)
+                                  
+
+pairs(~scores_citations + scores_teaching+scores_research+scores_overall_rank, data=ranking2017,pch = 19,col="chocolate4",  cex = 0.5,upper.panel=NULL)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
